@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script type="text/javascript" src="myFirstTest.js"></script>
+</head>
+<body>
+
+<div id="game"></div>
+
+<h2>JavaScript in Body</h2>
+<div id="demo"> </div>
+
+<!-- <div onclick=test() id="board"> -->
+  <div id="board">
+  <div id="board1"> </div>
+  <div id="pos0"> </div>
+  <div id="pos1"> </div>
+  <div id="pos2"> </div>
+  <div id="pos3"> </div>
+  <div id="g1"> </div>
+  <div id="g2"> </div>
+  <div id="g3"> </div>
+  <div id="g4"> </div>
+
+</div>
+
+<script>addColorBlock();arrange();setupColors();</script>
+<!-- <script>test()</script> -->
+
+
+<form onsubmit="return validate()" method="post">
+  Number: <input type="text" name="num1" id="num1" />
+  <br />
+  Repeat: <input type="text" name="num2" id="num2" />
+  <br />
+  <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
